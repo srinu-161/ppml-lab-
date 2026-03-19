@@ -1,0 +1,12 @@
+a="sand"
+b=123
+c=1.23
+d=1.23453
+e=True
+f=2+3j
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))

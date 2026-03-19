@@ -1,0 +1,11 @@
+import numpy as np
+one_arry=np.ones((2,3))
+zeros_array=np.zeros((2,3))
+empty_array=np.empty((2,3))
+print(f"ones : \n {one_arry}")
+print(f"zeros : \n {zeros_array}")
+print(f"empty : \n {empty_array}")
+arr=np.array([[1,2,3],[4,5,6]])
+print(f"Shape of array : \n {arr.shape}")
+reshape=arr.reshape(3,2)
+print(f"Reshaped array : \n ",reshape)
